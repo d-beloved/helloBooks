@@ -21,11 +21,9 @@
     <link rel="stylesheet" href="css/responsiveslides.css">
 
     <!-- Main-Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/overright.css">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="cover.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -43,59 +41,26 @@
             <img src="images/slide/slide1.jpg" alt="">
         </div>
         <!-- Mainmenu-markup-start -->
-        <div class="mainmenu-area navbar-fixed-top" data-spy="affix" data-offset-top="10">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-header">
-                        <div class="space-10"></div>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                         <!--Logo-->
-                        <a href="index.html" class="navbar-left show"><h1 class="masthead-brand logo"><strong>HelloBooks</strong></h1></a>
-                        <div class="space-10"></div>
-                    </div>
-                    <!--Toggle-button-->
-
-                    <!--Active User-->
-                    <div class="nav navbar-right">
-                        <div class="active-user navbar-left active">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                        <img src="images/active_user.png" class="img-circle img-thumbnail" alt="library" />
-                                    </a>
-                                    <ul class="dropdown-menu">
-                        <li>
-                        <a href="profile.html"> <span><i class="icofont icofont-user"></i></span>Profile</a>
-                                        </li>
-                        <li>
-                        <a href="#"> <span><i class="icofont icofont-notification"></i></span>Notifications</a>
-                                        </li>
-                        <li>
-                        <a href="borrow-books.html"> <span><i class="icofont icofont-book"></i></span>Borrow book</a>
-                                        </li>
-                        <li>
-                        <a href="#"> <span><i class="icofont icofont-upload"></i></span>Upload Book</a>
-                                        </li>
-                        <li>
-                        <a href="#"> <span><i class="icofont icofont-read-book"></i></span>Rent/Read book</a>
-                                        </li>
-                        <li>
-                        <a href="Borrow-history.html"> <span><i class="icofont icofont-read-book"></i></span>Borrow History</a>
-                                        </li>
-                        <li>
-                        <a href="#"> <span><i class="icofont icofont-logout"></i></span> Log Out</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+        <div class="masthead offset-pull-left navbar-fixed-top cover-container clearfix">
+            <div class="inner">
+              <h1 class="masthead-brand"><strong>HelloBooks</strong></h1>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active"><a href="books.html">Library</a></li>
+                  <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="profile.html">Your Profile</a></li>
+                <li><a href="borrow-books.html">Borrow a book</a></li>
+                <li><a href="Borrow-history.html">Borrow History</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html">Logout</a></li>
+        </ul>
+              </nav>
+            </div>
+          </div>
         </div>
         <div class="space-100"></div>
         <!-- Mainmenu-markup-end -->
