@@ -1,6 +1,9 @@
 /*
  * Globals
  */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+
 
 /* Links */
 a,
@@ -26,6 +29,10 @@ a:hover {
 
 html,
 body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #5b5b5b;
+  line-height: 1.6;
   height: 100%;
   background: #fff url(../images/bg3.png) no-repeat;
   background-position: center 0;
