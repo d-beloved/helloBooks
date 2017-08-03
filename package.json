@@ -1,0 +1,38 @@
+{
+  "name": "hellobooks",
+  "version": "1.0.0",
+  "description": "A Library automation application",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-beloved/helloBooks.git"
+  },
+  "keywords": [
+    "nodeJs",
+    "Express",
+    "Javascript",
+    "Mocha",
+    "Postgresql",
+    "Sequelize"
+  ],
+  "author": "Mor.Ayodeji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-beloved/helloBooks/issues"
+  },
+  "homepage": "https://github.com/d-beloved/helloBooks#readme",
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
