@@ -170,3 +170,13 @@ body {
     width: 700px;
   }
 }
+
+.navbar-fixed-top {
+    background-color: #00000090;
+    position: span;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    width: 100%;
+  }
