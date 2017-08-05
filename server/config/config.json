@@ -3,7 +3,7 @@
   "development": {
     "username": "postgres",
     "password": "postgres",
-    "database": "hellobooks-library",
+    "database": "hellobooks",
     "host": "127.0.0.1",
     "port": 5432,
     "dialect": "postgres"
@@ -11,7 +11,7 @@
   "test": {
     "username": "postgres",
     "password": "postgres",
-    "database": "hellobooks-libTest",
+    "database": "hellobooks-Test",
     "host": "127.0.0.1",
     "port": 5432,
     "dialect": "postgres"
